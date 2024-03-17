@@ -1,0 +1,38 @@
+Q1. 1.4GB
+Q2. 
+Filesystem      Size  Used Avail Use% Mounted on
+dev             1.8G     0  1.8G   0% /dev
+run             1.9G  832K  1.9G   1% /run
+/dev/mmcblk0p2   15G  1.5G   13G  11% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           1.9G     0  1.9G   0% /tmp
+/dev/mmcblk0p1  200M   39M  162M  20% /boot
+tmpfs           384M     0  384M   0% /run/user/1000
+Q3. 68Mi
+Q4. pacman -Q package_name
+Q5. git version 2.44.0
+Q6. 
+commit 7c074ba6bc89b8449ea7315ca3b85fd4bfc81d3a
+Author: thompeters2004 <thom.peters170804@gmail.com>
+Date:   Thu Mar 14 16:13:04 2024 +0000
+
+    Second commit
+
+commit 0a0c37b5b5108ed511963a5ab65ee9151e5e0835
+Author: thompeters2004 <thom.peters170804@gmail.com>
+Date:   Thu Mar 14 15:43:44 2024 +0000
+
+    Add some config files to repo
+Bonus Question. These are the hours, minutes and seconds
+Q7. commit 6c40c481742a8acac3c7f19b925300bf39ba4d35 (HEAD -> master)
+Author: thompeters2004 <thom.peters170804@gmail.com>
+Date:   Thu Mar 14 04:43:26 2024 +0100
+
+    Updated sudoers file
+Q8. There are two more commuts in it.
+Q9. Nothing
+Q10. etc-update is a utility commonly found in Gentoo Linux (and Gentoo-based distributions) that helps users to manage configuration file updates. It is particularly useful after software upgrades, where new versions of packages might include updates to configuration files in the /etc directory. The utility compares these new configuration files with the user-modified ones currently in use and allows the user to manually merge changes, automatically keep either version, or discard the updates.
+Q11. This account is currently not available.
+Q12. For opsstudent there are red/white/blue texts and for root there is highlighted red/white/blue texts.
+Q13. After applying the changes to highlight man pages with colors, when you open a man page (for example, man ls) and look at the SYNOPSIS section, the flags (such as -m) will appear in the color specified for bold text in your .bashrc or /etc/bash.bashrc configuration. Given the settings provided, these flags should appear in bold blue. This is because the LESS_TERMCAP_md variable was set to $'\E[01;34m', which corresponds to bold blue. The purpose of these color settings is to enhance readability by differentiating sections of the man page with various colors.
+Q14. To search within a man page, which uses less as its pager, you start by typing / followed by the search term, then press Enter. Pressing n moves to the next match. The question asks at which option the first hit occurs when searching for "search" in the man pages. The specific option where the first occurrence of "search" appears will depend on the content of the man page you are viewing at the time. For instance, if you were to look up man less and search for "search", the first hit would typically be under the descriptions of navigation commands within less, as it explains how to search forward or backward using / or ? followed by the search pattern. The actual position and section can vary depending on the exact man page and its structure.
